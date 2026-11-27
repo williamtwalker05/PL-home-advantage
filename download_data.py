@@ -18,4 +18,4 @@ for code in seasons:
     url = f"https://www.football-data.co.uk/mmz4281/{code}/E0.csv"
     filepath = os.path.join(RAW_DIR, f"E0_{code}.csv")
     urlretrieve(url, filepath)
-    print(f"Downloaded {code} -> {filepath}")
+    print(f"Downloaded {code} -> {filepath}") #shows progress
